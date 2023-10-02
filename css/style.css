@@ -1,0 +1,45 @@
+
+
+html{
+
+    font-family: sans-serif;
+
+}
+
+
+.topbar{
+    height: calc(10vh);
+    background-color: pink;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+.logo{
+    padding:16px;
+}
+
+.jumbo{
+    width: 100%;
+}
+.container{
+    width: 70%;
+    margin: 2em auto;
+}
+.navigation a{
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #222222;
+}
+
+.sfondo{
+    padding: calc(10vh);
+    width: 80%;
+    height: 70vh;
+    margin: 2em auto;
+}
+
+
