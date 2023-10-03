@@ -130,3 +130,15 @@
 /* shadow */
 
 .light-shadow{ box-shadow: 0 1px 3px #666;}
+
+
+
+
+
+
+
+
+/* display */
+.display-in-block{
+    display: inline-block;
+}

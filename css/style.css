@@ -6,70 +6,152 @@ html{
 
 }
 
+:root{
+    --navbar-height: 5rem;
+}
+
+main{
+    padding-top: var(--navbar-height);
+}
+
+.bigcontainer{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.smallcontainer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* header */
+nav>ul{
+
+    list-style-type: none;
+    height: 100%;
+}
+
+
+nav>ul>li>a{
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+
+}
+
+
 
 .topbar{
-    height: calc(10vh);
-    background-color: pink;
+    height: var(--navbar-height);
     width: 100%;
     position: fixed;
     top: 0;
-    left: 0;
-
-}
-.logo{
-    padding:16px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px #dedede;
+    z-index: 999;
 }
 
+.button{
+    padding: 1em;
+    margin: 1.5rem 0;
+}
+.button-blue{
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* jumbo */
+
+h1{
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 1em;
+}
 .jumbo{
     width: 100%;
+    background-color: #b4d0e7;
 }
 .container{
-    width: 70%;
-    margin: 2em auto;
-}
-.navigation a{
-    padding: 16px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 700;
-    color: #222222;
+    position: relative;
+    top: 70px;
 }
 
-.sfondo{
-    padding: calc(10vh);
-    width: 80%;
-    height: 70vh;
-    margin: 2em auto;
+.fa-arrow-down{
+    position: absolute;
+    bottom: 100px;
+
 }
 
-.thin-container{
-    width:60%;
-    margin: 2em auto;
+.jumboimg{
+    display: inline-block;
+}
+
+
+
+/* pianobuisness */
+
+.smallcontainer>h2{
+    font-size: 50px;
+    margin-bottom: 3em;
+}
+
+.buisness{
+    margin-top: 10rem;
+}
+
+
+.trecarte{
     display: flex;
     justify-content: space-between;
-
+    width: 100%;
 }
+
 
 .card{
-    border: 2px solid black;
-    width: 30%;
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.card-title{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+
+
+
+.horizontalcard{
+    margin-top: 3em;
+    border: 1px solid black;
+}
+
+
+#enterprise{
+    align-self: center;
+}
+
+
+
+.trovapartner{
+    margin-top: 4rem;
 
 }
 
-.orizzontale{
-    border: 2px solid black;
-    display: block;
-
-}
-
-h2{
-    margin: 2em auto;
-    width: 60%;
-}
-
-.enterprise{
-    margin: 2em auto;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-}
