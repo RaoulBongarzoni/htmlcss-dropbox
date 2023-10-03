@@ -42,4 +42,34 @@ html{
     margin: 2em auto;
 }
 
+.thin-container{
+    width:60%;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-between;
 
+}
+
+.card{
+    border: 2px solid black;
+    width: 30%;
+
+}
+
+.orizzontale{
+    border: 2px solid black;
+    display: block;
+
+}
+
+h2{
+    margin: 2em auto;
+    width: 60%;
+}
+
+.enterprise{
+    margin: 2em auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
