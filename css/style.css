@@ -8,6 +8,7 @@ html{
 
 :root{
     --navbar-height: 5rem;
+    --latoquadrato-whidth: calc(0.5 * 100vw / 3)
 }
 
 main{
@@ -155,3 +156,20 @@ h1{
 
 }
 
+
+
+.quadrato{
+    width: 50%;
+    height: var(--latoquadrato-whidth);
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logoclienti{
+    width: 100%;
+    margin: 0 auto;
+    filter: invert(1);
+}

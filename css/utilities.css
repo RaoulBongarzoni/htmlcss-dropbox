@@ -60,7 +60,8 @@
 .bg-zalando{ background-color: #ff6900;}
 .bg-rosso{background-color: red;}
 .bg-green{background-color: green;}
-
+.bg-blue{background-color: blue;}
+.bg-yellow{background-color: yellow;}
 /* width */
 .w-20{ width: 20%;}
 .w-25{ width: 25%;}
@@ -142,3 +143,28 @@
 .display-in-block{
     display: inline-block;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* height */
+
+
+
+.h-20{ height: 20%;}
+.h-25{ height: 25%;}
+.h-40{ height: 40%;}
+.h-30{ height: 30%;}
+.h-33{ height: 33%}
+.h-50{ height: 50%;}
+.h-60{ height: 60%;}
+.h-66{ height: 66%;}
+.h-70{ height: 70%}
+.h-100{height: 100%;}
