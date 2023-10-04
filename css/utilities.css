@@ -45,6 +45,8 @@
 .flex-justify-center{ justify-content: center;}
 .flex-stretch{ align-items: stretch;}
 .f-wrap{ flex-wrap: wrap;}
+.flex-align-self-center{align-self: center;}
+.flex-justify-evenly{justify-content: space-evenly;}
 
 /* background */
 
