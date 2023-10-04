@@ -12,9 +12,13 @@ html{
     --primary-color: #0061ff;
 }
 
+a{
+    color: var(--primary-color);
+}
 
 main{
     padding-top: var(--navbar-height);
+    
 }
 
 .bigcontainer{
@@ -68,6 +72,52 @@ h3{
     border: hidden;
 }
 
+/* hovers */
+.button-blue:hover{
+    text-shadow: 0 0 1px #fdfdfd;
+    box-shadow: 0 0 2px #0d2481, inset 0 0 1px 1px #FFF;
+}
+
+.button:hover{
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+    border: hidden;
+}
+
+nav .link-hover:hover p{
+    border-bottom: 2px solid black;
+}
+
+
+
+/* faq hover */
+.answer{
+    position: absolute;
+    left: -9999999px;
+}
+
+.fa-angle-up{
+    position: absolute;
+    left: -9999999px;
+}
+
+.p-rel:hover .answer{
+    position: unset;
+}
+.p-rel:hover .fa-angle-up{
+    position: unset;
+}
+
+.p-rel:hover .fa-angle-down{
+    position: absolute;
+    left: -9999999px;
+}
+
+
+
+
+
 
 
 
@@ -78,13 +128,26 @@ nav>ul{
     list-style-type: none;
     height: 100%;
 }
+nav .link-hover{
+    height: 100%;
+}
 
+nav li:hover p{
+    border-bottom: 2px solid black;
+}
 
-nav>ul>li>a{
+nav a p{
+    height: 100%;
+    color: black;
+    vertical-align: center;
+    padding: 32px 16px;
+}
+
+nav a{
     height: 100%;
     text-decoration: none;
     color: black;
-    padding: 1em;
+    
 }
 
 
@@ -248,7 +311,7 @@ nav>ul>li>a{
 
 /* faq */
 
-.question:hover{}
+
 
 
 .answer{
