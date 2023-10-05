@@ -196,6 +196,26 @@ nav a{
 /* piani e pagamenti */
 
 
+#radio-button>li{
+    display: inline-block;
+}
+
+.radio{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto 0.5em;
+    vertical-align: -5%;
+    border: 1px solid gray;
+    
+}
+
+.checked{
+    border: 3px solid var(--primary-color);
+}
+
+
 .plan-box{
     align-items: stretch;   
 }
@@ -324,17 +344,14 @@ nav a{
 
 
 footer{
-    
     background-color: black;
 }
 .footcolumn{
     width: 20%;
     color: white;
-    list-style-type: none;
 }
 .footcolumn>ul{
     list-style-type: none;
-
 }
 .footcolumn>ul>li{
     line-height: 2rem;
@@ -342,9 +359,12 @@ footer{
 .footcolumn>h5{
     margin: 2rem 0;
     font-size: 20px;
-
 }
-
+.footcolumn a{
+    text-decoration: none;
+    color: white;
+    
+}
 
 /* testo */
 .bold{
